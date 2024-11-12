@@ -40,7 +40,7 @@ We have provided a collection of unlabeled pages for you to classify. Once proje
 
 2.  Perform a secondary tokenization of the data to obtain bigrams. Fit a logistic principal component regression model to the word-tokenized data, and then input the predicted log-odds-ratios together with some number of principal components of the bigram-tokenized data to a *second* logistic regression model. Based on the results, does it seem like the bigrams capture additional information about the claims status of a page?
 
-3.  Build and train a neural network model. Experiment with architectures and training configurations until you find a model that performs at least as well as principal component logistic regression from task 1. Quantify the predictive accuracy.
+3.  OPTIONAL: Build and train a neural network model. Experiment with architectures and training configurations until you find a model that performs at least as well as principal component logistic regression from task 1. Quantify the predictive accuracy.
 
 ### Primary task
 
